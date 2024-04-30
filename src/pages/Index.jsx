@@ -15,21 +15,21 @@ const Index = () => {
           </Flex>
         </VStack>
       </Flex>
-      <Flex direction="column" mt={10} mb={20}>
+      <Flex id="about" direction="column" mt={10} mb={20}>
         <Heading as="h2" size="xl" mb={5}>About Me</Heading>
         <Text fontSize="lg">
           I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces.
           With a background in graphic design and a keen eye for detail, I strive to bridge the gap between design and technical implementation.
         </Text>
       </Flex>
-      <Flex direction="column" mt={10} mb={20}>
+      <Flex id="portfolio" direction="column" mt={10} mb={20}>
         <Heading as="h2" size="xl" mb={5}>Portfolio</Heading>
         <Text fontSize="lg">
           My portfolio showcases a range of projects that highlight my skills in web development and design.
           Each project is a testament to my ability to create engaging and user-friendly experiences.
         </Text>
       </Flex>
-      <Flex direction="column" mt={10} mb={20}>
+      <Flex id="contact" direction="column" mt={10} mb={20}>
         <Heading as="h2" size="xl" mb={5}>Contact</Heading>
         <Text fontSize="lg">
           Interested in collaborating or learning more about my work? Feel free to reach out via email or connect with me on LinkedIn.
